@@ -41,7 +41,8 @@ tamopath = getattr(TAMO, '__path__')[0]
 
 print "\nTAMO is installed in %s\n\n" % tamopath
 datapath = ''
-while( not os.path.isdir(datapath) or not os.access(datapath, os.W_OK) ):
+#while( not os.path.isdir(datapath) or not os.access(datapath, os.W_OK) ):
+while not os.path.isdir(datapath) :
 	datapath = raw_input("Enter path for TAMO data: ")
 	datapath = os.path.realpath(datapath)
 	if( not os.access(datapath, os.F_OK) ):
