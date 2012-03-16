@@ -61,7 +61,7 @@ def HolstegeData():
 
 def WhiteheadData():
     root    = TAMO.paths.Whiteheaddir
-    urlroot = 'http://jura.wi.mit.edu/fraenkel/download/release_v24/'
+    urlroot = 'http://fraenkel.mit.edu/Harbison/release_v24/'
     files   = ['Harbison_Gordon_yeast_v9.11.csv.gz',
                'Yeast6kArray.tgz',
                'Human13kArray.tgz']

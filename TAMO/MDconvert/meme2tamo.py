@@ -6,7 +6,7 @@
 #Author: David Benjamin Gordon
 
 import sys, re, os, math, time, string, tempfile, glob
-from TAMO    import newMotifTools as MotifTools
+from TAMO    import MotifTools
 from TAMO.MD import AlignAce, Meme, Arith, Fasta
 from TAMO    import MotifMetrics
 from TAMO.altwebify import pick_genome

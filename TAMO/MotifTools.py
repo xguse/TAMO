@@ -479,7 +479,7 @@ class Motif:
             str.append(''.join(s))
         fmt = '%%%ds'%height
         print '#  %s'%('-'*self.width)
-        for h in range(height):
+        for h in range(int(height)):
             sys.stdout.write("#  ")
             for i in range(self.width):
                 sys.stdout.write((fmt%str[i])[h])

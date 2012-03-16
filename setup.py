@@ -63,7 +63,8 @@ f.write("TAMOdata = '%s/'\n" % datapath)
 f.close()
 
 for x in ['/MD/AlignAce.py', '/MD/MDscan.py', '/MD/Meme.py', '/MD/TAMO_EM.py', '/seq/FakeFasta.py',
-          '/seq/GenerateFastas.py', '/seq/Background.py', '/util/WMWtest.py', '/DataSources/GO.py', 
+          '/seq/GenerateFastas.py', '/seq/Background.py', '/util/WMWtest.py', '/util/Arith.py', 
+          '/util/PermuteTools.py', '/util/Poisson.py', '/DataSources/GO.py', 
           '/DataSources/PDB.py', '/DataSources/SGD.py', '/DataSources/Holstege.py', 
           '/DataSources/Yeast6kArray.py', '/DataSources/Novartis.py',
           '/MotifMetrics.py', '/MDconvert/ace2tamo.py', '/MDconvert/kellis2tamo.py',
