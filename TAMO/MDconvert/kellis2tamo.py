@@ -7,9 +7,10 @@
 
 import sys, re, os, math, time, string, tempfile, glob
 from TAMO    import MotifTools
-from TAMO.MD import AlignAce, Meme, Arith
+from TAMO.MD import AlignAce, Meme
+from TAMO.util import Arith
 from TAMO    import MotifMetrics
-from TAMO.altwebify import pick_genome
+#from TAMO.altwebify import pick_genome
 
 #PROBESET = MotifMetrics.ProbeSet('YEAST')
 #PROBESET.factor = 0.7

@@ -6,10 +6,12 @@
 #Author: David Benjamin Gordon
 
 import sys, re, os, math, time, string, tempfile
-from TAMO import AlignAce, Meme, Arith
+from TAMO import AlignAce
+from TAMO.MD import Meme
+from TAMO.util import Arith
 from TAMO import MotifTools
 from TAMO import MotifMetrics
-from TAMO.altwebify import pick_genome
+#from TAMO.altwebify import pick_genome
 
 #PROBESET = MotifMetrics.ProbeSet('YEAST')
 #PROBESET.factor = 0.7
