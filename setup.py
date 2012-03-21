@@ -24,7 +24,7 @@ if( not ok ):
 	sys.exit(0)
 
 setup(name='TAMO',
-      version='1.0_080328',
+      version=open('VERSION').read().strip(),
       packages=['TAMO', 'TAMO.seq', 'TAMO.util', 'TAMO.DataSources', 
                 'TAMO.MD', 'TAMO.Clustering', 'TAMO.MDconvert'],
       ext_modules=[Extension('TAMO.MD._MDsupport', ['TAMO/MD/MDsupport_source/MDsupport.cxx', 
